@@ -1,6 +1,6 @@
 fn main() {
     // addition
-    let sum = 5550 + 7310;
+    let sum:u16 = 5550 + 7310;
     println!("The sum of 550 and 7310 = {}", sum);
 
     //subtraction
@@ -12,11 +12,11 @@ fn main() {
     println!("The multiple of 4 and 30 = {}", product);
 
     //division
-    let quotient = 56.7 / 32.2;
+    let quotient:f32 = 56.7 / 32.2;
     println!("The division of 56.7 and 32.2 = {}", quotient);
 
     //remainder
-    let remainder = 43 % 5;
+    let remainder:u8 = 43 % 5;
     println!("The remainder of 43 and 5 = {}", remainder);
 }
 

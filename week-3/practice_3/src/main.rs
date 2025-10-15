@@ -1,5 +1,5 @@
 fn main() {
-    let result = 10.00;            //f64 by default
+    let result:f32 = 10.00;            //f64 by default if "f32" function was not added
     let interest:f32 = 8.35;
     let cost:f64 = 15000.600;    // double precision
 
